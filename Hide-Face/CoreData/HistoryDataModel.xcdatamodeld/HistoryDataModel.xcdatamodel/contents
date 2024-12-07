@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="HistoryRequest" representedClassName="HistoryRequest" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isoDate" optional="YES" attributeType="String"/>
+        <attribute name="type1" optional="YES" attributeType="String"/>
+        <attribute name="type2" optional="YES" attributeType="String"/>
+        <attribute name="type3" optional="YES" attributeType="String"/>
+        <attribute name="type4" optional="YES" attributeType="String"/>
+        <attribute name="type5" optional="YES" attributeType="String"/>
+    </entity>
+</model>

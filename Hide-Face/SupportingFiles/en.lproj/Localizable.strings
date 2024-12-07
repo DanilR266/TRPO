@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  Hide-Face
+
+  Created by Данила on 21.04.2024.
+  
+*/
+
+"Главная"="Main";
+"Добавить файл (до 100 мб)"="Add file (up to 100 MB)";
+"Используемый алгоритм"="Used algorithm";
+"Тип удаления лица"="Face removal type";
+"Качество кодирования (видео)"="Encoding quality (video)";
+"Face Align + Yolov5l-Face (многоугольники, точно)"="Face Align + Yolov5l-Face (polygons, accurate)";
+"Yolov5l-Face (прямоугольники, точно)"="Yolov5l-Face (rectangles, accurate)";
+"Face Align + SFD (многоугольники, точно)"="Face Align + SFD (polygons, accurate)";
+"MTCNN (прямоугольники)"="MTCNN (rectangles)";
+"RetinaFace + ResNet50 (прямоугольники, точно)"="RetinaFace + ResNet50 (rectangles, accurate)";
+"RetinaFace + MobileNet (прямоугольники, быстро)"="RetinaFace + MobileNet (rectangles, fast)";
+"DLIB (многоугольники)"="DLIB (polygons)";
+"DLIB (прямоугольники)"="DLIB (rectangles)";
+"Face Align + BlazeFace (многоугольники, быстро)"="Face Align + BlazeFace (polygons, fast)";
+"Yolov5n-Face (прямоугольники, быстро)"="Yolov5n-Face (rectangles, fast)";
+"Несколько алгоритмов вместе (прямоугольники, очень точно)"="Multiple algorithms together (rectangles, very accurate)";
+"Размытие"="Blur";
+"Черный квадрат"="Black square";
+"Средний цвет"="Average color";
+"По умолчанию"="Default";
+"С надписью"="With logo";
+"Без надписи"="Without logo";
+"Доп. ободок (в пикселях)"="Additional border (in pixels)";
+"Надпись Hide-Face"="Logo Hide-Face";
+"Удалить лица"="Remove faces";
+"Профиль"="Profile";
+"Выбрать из галереи"="Choose from gallery";
+"Камера"="Camera";
+"Отмена"="Cancel";
+"Удаление лиц завершено!"="Face removal complete!";
+"Скачать результат"="Download result";
+"Посмотреть информацию"="View information";
+"Информация"="Information";
+"Логин"="Login";
+"Пароль"="Password";
+"Зарегестрироваться"="Sign up";
+"Уже есть аккаунт?"="Already have an account?";
+"Войти"="Sign in";
+"Вход"="Sign in";
+"Создать аккаунт?"="Create an account?";
+"Регистрация"="Registration";
+"Настройки"="Settings";
+"Сменить пароль"="Change password";
+"Старый пароль"="Old password";
+"Новый пароль"="New password";
+"Сохранить"="Save";
+"Приветствуем,"="Hello,";
+"Количество кредитов:"="Number of credits:";
+"Купить кредиты"="Buy credits";
+"История запросов"="Query history";
+"Запрос от"="Query from";
+"Вы уверены, что хотите удалить этот запрос?"="Are you sure you want to delete this query?";
+"Удалить"="Delete";
+"Предпросмотр"="Preview area";
+"Ошибка сохранения результата"="Error saving result";
+"Результат сохранен в галерею"="Result saved to gallery";
+"Результат"="Result";
+"Смена языка"="Change Language";
+"Для изменения языка необходимо перезапустить приложение."="To apply the language change, you need to restart the app.";
+
+"На этом сайте вы можете автоматически удалить/скрыть/размыть лица на фото и видео. Для этого используются алгоритмы на базе нейронных сетей. Вы загружаете медиа-файл и через пару минут получаете результат. Все загруженные пользовательские данные хранятся от одного до трёх дней. По прошествии этого времени все загруженные и созданные файлы автоматически удаляются.\n\nОграничения: \n 1) Максимальный размер медиа-файла: 100 МБ \n 2) Максимальная продолжительность медиа-файла: 10 минут"="On this website, you can automatically remove/hide/blur faces in photos and videos. Neural network-based algorithms are used for this purpose. You upload a media file and get the result in a couple of minutes. All uploaded user data is stored for one to three days. After this time, all uploaded and created files are automatically deleted.\n\nLimitations: \n 1) Maximum media file size: 100 MB \n 2) Maximum media file duration: 10 minutes";
+"FAQ"="FAQ";
+"Зачем вообще нужно удалять лица?"="Why would you need to remove faces at all?";
+"Самые очевидные причины - это размещение чувствительных видео в интернете, где вы не хотите что бы люди были узнаны. К таким видео относятся: съемки с митингов, новостные сюжеты и т.д."="The most obvious reasons are for posting sensitive videos online where you don't want people to be recognized. Such videos include: footage from rallies, news stories, etc.";
+"Примеры"="Examples";
+"Чем отличаются алгоритмы 'многоугольники' vs 'прямоугольники'?"="What is the difference between 'polygons' and 'rectangles' algorithms?";
+"Там где используются многоугольники, лицо удаляется по контуру, то есть более аккуратно, чем когда для удаления лица используется прямоугольник."="Where polygons are used, the face is removed along its outline, which is more accurate than when a rectangle is used to remove the face.";
+"Какие типы удаления лиц поддерживаются?"="What types of face removal are supported?";
+"На данный момент 3 типа: размытие, черный фон и заливка средним цветом."="Currently, there are 3 types: blur, black background, and filling with average color.";
+"Зачем нужно несколько алгоритмов для удаления лиц?"="Why do you need multiple algorithms for face removal?";
+"Разные алгоритмы дают разные результаты. Там где плохо сработал один из алгоритмов, другой может дать результат лучше."="Different algorithms yield different results. Where one algorithm performs poorly, another may give better results.";
+"Какая скорость работы у разных алгоритмов?"="What is the performance of different algorithms?";
+"Замеры проводились на FullHD видео на нашем сервере:\n 0 - MTCNN (прямоугольники): Средний FPS: 6.34\n 1 - DLIB (прямоугольники): Средний FPS: 4.77\n 2 - DLIB (многоугольники): Средний FPS: 4.77\n 3 - Face Align + SFD (многоугольники, точно): Средний FPS: 5.21\n 4 - Face Align + BlazeFace (многоугольники, быстро): Средний FPS: 5.80\n 5 - RetinaFace + MobileNet (прямоугольники, быстро): Средний FPS: 6.97\n 6 - RetinaFace + ResNet50 (прямоугольники, точно): Средний FPS: 2.72\n 7 - Yolov5n-Face (прямоугольники, быстро) Средний FPS: 8.36\n 8 - Yolov5l-Face (прямоугольники, точно) Средний FPS: 8.12"="Measurements were taken on FullHD video on our server:\n 0 - MTCNN (rectangles): Average FPS: 6.34\n 1 - DLIB (rectangles): Average FPS: 4.77\n 2 - DLIB (polygons): Average FPS: 4.77\n 3 - Face Align + SFD (polygons, accurate): Average FPS: 5.21\n 4 - Face Align + BlazeFace (polygons, fast): Average FPS: 5.80\n 5 - RetinaFace + MobileNet (rectangles, fast): Average FPS: 6.97\n 6 - RetinaFace + ResNet50 (rectangles, accurate): Average FPS: 2.72\n 7 - Yolov5n-Face (rectangles, fast) Average FPS: 8.36\n 8 - Yolov5l-Face (rectangles, accurate) Average FPS: 8.12";
