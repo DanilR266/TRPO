@@ -84,7 +84,7 @@ class ModelLogin {
     }
     
     func validUserInputPassword(_ password: String) -> Bool {
-        return password.count >= 16
+        return password.count >= 8
     }
     
     
